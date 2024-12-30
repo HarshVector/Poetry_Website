@@ -87,7 +87,7 @@ DATABASES = {
 INSTALLED_APPS += ['corsheaders']
 MIDDLEWARE += ['corsheaders.middleware.CorsMiddleware']
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # Frontend URL
+    "http://localhost:5175",  # Frontend URL
 ]
 
 

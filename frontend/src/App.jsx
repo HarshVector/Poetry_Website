@@ -10,6 +10,7 @@ import Login from "./components/Login/Login";
 import Navbar from "./components/Navbar/Navbar";
 import Register from "./components/Login/register";
 import Submit from "./components/Submit/submit";
+import Categories from "./components/Categories/Categories";
 
 
 
@@ -38,7 +39,8 @@ const App = () => {
           />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/submit" element={<Submit />} />;
+          <Route path="/submit" element={<Submit />} />
+          <Route path="/categories/:category" element={<Categories />} />
           
           
         </Routes>
